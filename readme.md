@@ -100,19 +100,19 @@ Meydan okumaya aktif olarak katılmak istiyorsanız,[30DaysOfPython challenge](h
 Python Genel amaçlı kodlama için üst düzey bir programlama dilidir. Açık kaynak kodlu, yorumlanmış, nesne yönelimli bir programlama dilidir.  Python Holalndalı yazılımcılar tarafından oluşturulmultur, Guido van Rossum. Python programlama dilinin adı, bir İngiliz eskiz komedi dizisinden türetilmiştir, *Month Python's Flying Circus*. İlk versiyonu 20 Şubat 1991'de yayınlandı.Bu "30 Günde Python" meydan okuması Pytho'nun son sürümünü öğrenmeniz için yardımcı olacaktır, adım adım Python 3. Konular 30 güne bölünmüştür. Her gün, anlaşılması kolay açıklamalar, gerçek dünyadan örnekler, birçok uygulamalı alıştırmalar ve projeler içeren birkaç konu içerir.
 
 Bu meydan okuma python kodlama öğrenmek istiyen, yeni başlayanlar ve profesyoneller için tasarlandı . Bu meydan okumayı bitirmek 30 ila 100 gün sürebilir. Telgram grubuna aktif olarak katılan kişilerin görevi tamamlama olasılığı yüksektir.
-If you are a visual learner or in favor of videos, you may get started with this [Python for Absolute Beginners video](https://www.youtube.com/watch?v=11OYpBrhdyM).
+Sanal bir öğrenciyseniz ve ya videolarla öğrenen biri iseniz, bununla başlaya bilirsiniz [Yeni başlayanlar için Python](https://www.youtube.com/watch?v=11OYpBrhdyM).
 
-## Why Python ?
+## Neden Python ?
 
-It is a programming language which is very close to human language and because of that it is easy to learn and use.
-Python is used by various industries and companies (including Google). It has been used to develop web applications, desktop applications, system adminstration, and machine learning libraries. Python is highly embraced language in the data science and machine learning community. I hope this is enough to convince you to start learning Python. Python is eating the world and you are killing it before it eats you.
+İnsan diline yakın olan programlama dili ve öğrenmesi ve kullanması kolay bir dil.
+Python çeşitli indüstiriler ve şirketler tarafınca kullanılıyor (Google'da dahil olmak üzere). Web uygulamarı, masaüstü uygulamalar, sistem yönetimi ve makine öğrenimi kütüphanelerini geliştirmek için kullanılmıştır. Python, veri bilimi ve makine öğrenimi topluluğunda oldukça benimsenen bir dildir. Umarım bu sizi python öğrenmek için teşvik edebilmiştir. Python Dünyayı yiyor ve seni yemeden önce onu öldürüyosun.
 
-## Environment Setup
+## Ortam kurulumları
 
-### Installing Python
+### Python Kurma
 
-To run a python script you need to install python. Let's [download](https://www.python.org/) python.
-If your are a windows user. Click the button encircled in red.
+Python script'ini çalıştırmak için pythonu kurman gerekir. Hadi  python'u [indirelim](https://www.python.org/).
+Eğer windows kullanıcısı iseniz. Click the button encircled in red.
 
 [![installing on Windows](./images/installing_on_windows.png)](https://www.python.org/)
 
