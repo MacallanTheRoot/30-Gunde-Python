@@ -45,53 +45,55 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> Second Edition: July, 2021</small>
+  <sub>Yazar:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a>
+  <sub>Çeviren:
+  <a href="https://www.linkedin.com/in/hamza-efe-%C5%9F-018178213/" target="_blank">Hamza Efe Şahinbaş</a><br>
+  <small> Son Düzenleme: Temmuz, 2021</small>
   </sub>
 </div>
 
 
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
+[Gün 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
 
 ![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
-- [🐍 30 Days Of Python](#-30-days-of-python)
-- [📘 Day 1](#-day-1)
-  - [Welcome](#welcome)
-  - [Introduction](#introduction)
-  - [Why Python ?](#why-python-)
-  - [Environment Setup](#environment-setup)
-    - [Installing Python](#installing-python)
+- [🐍 30 Günde Python](#-30-days-of-python)
+- [📘 Gün 1](#-day-1)
+  - [Hoş Geldiniz](#welcome)
+  - [Giriş](#introduction)
+  - [Neden Python ?](#why-python-)
+  - [Ortam Kurulumu](#environment-setup)
+    - [Python Kurulumu](#installing-python)
     - [Python Shell](#python-shell)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-      - [How to use visual studio code](#how-to-use-visual-studio-code)
-  - [Basic Python](#basic-python)
+    - [Visual Studio Code Kurma](#installing-visual-studio-code)
+      - [Visual Studio Code Nasıl Kullanılır?](#how-to-use-visual-studio-code)
+  - [Temel Python](#basic-python)
     - [Python Syntax](#python-syntax)
-    - [Python Indentation](#python-indentation)
-    - [Comments](#comments)
-    - [Data types](#data-types)
-      - [Number](#number)
-      - [String](#string)
-      - [Booleans](#booleans)
+    - [Python Girintisi](#python-indentation)
+    - [Yorumlar](#comments)
+    - [Data Türleri](#data-types)
+      - [Numaralar](#number)
+      - [String'ler](#string)
+      - [Boolean'ler](#booleans)
       - [List](#list)
-      - [Dictionary](#dictionary)
+      - [Sözlük](#dictionary)
       - [Tuple](#tuple)
       - [Set](#set)
-    - [Checking Data types](#checking-data-types)
-    - [Python File](#python-file)
-  - [💻 Exercises - Day 1](#-exercises---day-1)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
+    - [Data Türlerini Kontrol Etme](#checking-data-types)
+    - [Python Dosyaları](#python-file)
+  - [💻 Egzersiz - Gün 1](#-exercises---day-1)
+    - [Egzersiz: Level 1](#exercise-level-1)
+    - [Egzersiz: Level 2](#exercise-level-2)
+    - [Egzersiz: Level 3](#exercise-level-3)
 
-# 📘 Day 1
+# 📘 Gün 1
 
-## Welcome
+## Hoş Geldiniz
 
-**Congratulations** for deciding to participate in a _30 days of Python_ programming challenge . In this challenge you will learn everything you need to be a python programmer and the whole concept of programming. In the end of the challenge you will get a _30DaysOfPython_ programming challenge certificate.
+30 Günde python kodlama meydan okumasına başlamaya karar verdiğiniz için **başarılar**. Bu meydan okumada programlamanın tüm konseptini ve python kodlama için gereken her şeyi öğreneceksin . Bu meydan okumanın sonunda "_30DaysOfPython_ programming challenge" sertifikasını alacaksın.
 
-If you would like to actively engage in the challenge, you may join the [30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram group.  
+Meydan okumaya aktif olarak katılmak istiyorsanız,[30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram grubumuza katılabilirsiniz.  
 
 ## Introduction
 
