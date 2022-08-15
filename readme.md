@@ -112,30 +112,31 @@ Python çeşitli indüstiriler ve şirketler tarafınca kullanılıyor (Google'd
 ### Python Kurma
 
 Python script'ini çalıştırmak için pythonu kurman gerekir. Hadi  python'u [indirelim](https://www.python.org/).
-Eğer windows kullanıcısı iseniz. Click the button encircled in red.
+Eğer windows kullanıcısı iseniz, kırmızı daire ile işaretli butona tıklayın.
 
-[![installing on Windows](./images/installing_on_windows.png)](https://www.python.org/)
+[![Windows'da Kurulum](./images/installing_on_windows.png)](https://www.python.org/)
 
-If you are a macOS user. Click the button encircled in red.
+Eğer macOS kullanıcısı iseniz, kırmızı daire ile işaretli butona tıklayın.
+ 
 
-[![installing on Windows](./images/installing_on_macOS.png)](https://www.python.org/)
+[![Macos'da Kurulum](./images/installing_on_macOS.png)](https://www.python.org/)
 
-To check if python is installed write the following command on your device terminal.
-
+Python'un kurulu olup olmadığını kontrol etmek için cihazınızın terminaline aşağıdaki komutu yazın. 
+  
 ```shell
 python --version
 ```
 
 ![Python Version](./images/python_versio.png)
 
-As you can see from the terminal, I am using _Python 3.7.5_ version at the moment. Your version of Python might be different from mine by but it should be 3.6 or above. If you mange to see the python version, well done. Python has been installed on your machine. Continue to the next section.
+Terminalde görebildiğin üzere, şu anda _Python 3.7.5_ kullanıyorum. Python sürümünüz benimkinden farklı olabilir ancak 3.6 veya üstü olmalıdır.Eğer python sürümünü görmeyi başardıysanız tebrikler python bilgisayarınızda kurulu. Diğer bölüme ilerleyin.
 
 ### Python Shell
 
-Python is an interpreted scripting language, so it does not need to be compiled. It means it executes the code line by line. Python comes with a _Python Shell (Python Interactive Shell)_. It is used to execute a single python command and get the result.
+Python yorumlanmış bir betik dilidir, yani derlenmesine gerek yok. Bu kodu satır satır yürüttüğü anlamına gelir. Python _Python Shell (Python Etkğleşimli Kabuk)_ ile beraber geliyor. Tek bir python komutunu çalıştırmak ve sonucu almak için kullanılır.
 
-Python Shell waits for the Python code from the user. When you enter the code, it interprets the code and shows the result in the next line.
-Open your terminal or command prompt(cmd) and write:
+Python Shell kullanıcıdan python kodunu bekler. kodu girdiğiniz zaman, kodu yorumlar ve sonucu bir sonraki satırda gösterir.
+Terminalinizi veya Komut İstemcisini(cmd) açın ve yazın :
 
 ```shell
 python
