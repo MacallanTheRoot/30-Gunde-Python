@@ -155,25 +155,25 @@ Kabuğu kapatmak için bu >> sembolden sonra **exit()** komudunu yazıp Enter'a 
 
 Şimdi Python Etkileşimli Kabuğu nasıl açıp kapatacağını öğrendin.
   
-Eğer pythonun anlayacağı kodlar yazarsanız size sonuçlarını vericektir.Aksi takdirde size hata olarak geri dönecektri. Let's make a deliberate mistake and see what Python will return.
+Eğer pythonun anlayacağı kodlar yazarsanız size sonuçlarını vericektir.Aksi takdirde size hata olarak geri dönecektri. Kasıtlı bir hata yapıp pythonun nasıl cevap verdiğini görelim
 
 ![Invalid Syntax Error](./images/invalid_syntax_error.png)
 
-As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using x as multiplication in Python is a syntax error because (x) is not a valid syntax in Python. Instead of (**x**) we use asterisk (*) for multiplication. The returned error clearly shows what to fix.
+Gördüğünüz gibi bir hata olarak cevap verdi. Python o kadar zeki ki, yaptığımız hatayı ve hangisinin yanlış olduğunu biliyor _Syntax Error: invalid syntax_. Pythonda çarpma işleminde x'i kullanmak sözdizimi(syntax) hatası verir çünkü (x) pythonda geçerli bir syntax değildir. (**x**) in yerine biz çarpma işlemlerinde asterix kullanırız (*). Döndürülen hata, neyin düzeltileceğini açıkça gösterir.
 
-The process of identifying and removing errors from a program is called *debugging*. Let us debug it by putting * in place of **x**.
+Hataları tanımlayan ve kaldıran programa *debugging* denir.  **x** yerine * Koyarak hata ayıklayalım.
 
 ![Fixing Syntax Error](./images/fixing_syntax_error.png)
 
-Our bug was fixed, the code ran and we got a result we were expecting. As a programmer you will see such kind of errors on daily basis. It is good to know how to debug. To be good at debugging you should understand what kind of errors you are facing. Some of the Python errors you may encounter are *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* etc. We will see more about different Python **_error types_** in later sections.
+Hatamız düzeltildi. Kod çalıştı ve beklediğimiz sonucu aldık. Bir programcı olarak bu tür hataları günlük olarak göreceksiniz. Nasıl debug (hata ayıklama) yapıcağınızı bilmek iyidir. Debuging'de iyi olmak için ne tür hatalarla karşılaşacağınızı anlamak gekerikir. Karşılacağınız hatalardan bazıları *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* vb. Sonra daha fazla **_error types_ (hata türleri)** göreceğin.
 
-Let us practice more how to use Python interactive shell. Go to your terminal or command prompt and write the word **python**.
+Python Etkileşimli Kabukda biraz pratik yapalım. Terminalinize veya Komut istemcisine gidip şunu yazın: **python**.
 
 ![Python Scripting Shell](./images/opening_python_shell.png)
 
-The Python interactive shell is opened. Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus,  exponential).
+Python Etkileşimli Kabuk açıldı. Bazı matematiksel işlemler yapalım (topama, çıkarma, çarpma, bölme, modüller,  üstlü).
 
-Let us do some maths first before we write any Python code:
+Herhangi bir python kodu yazmadan önce biraz matematik işlemi yapalım:
 
 - 2 + 3 = 5
 - 3 - 2 = 1
@@ -181,39 +181,40 @@ Let us do some maths first before we write any Python code:
 - 3 / 2 = 1.5
 - 3 ^ 2 = 3 x 3 = 9
 
-In python we have the following additional operations:
+Pythonda aşşağıdaki ek işlemlere sahibiz:
 
-- 3 % 2 = 1 => which means finding the remainder
-- 3 // 2 = 1 => which means removing the remainder
+- 3 % 2 = 1 => Kalanı bulmak anlamına gelir
+- 3 // 2 = 1 => Kalanın kaldırılması anlamına gelir
 
-Let us change the above mathematical expressions to Python code. The Python shell has been opened and let us write a comment at the very beginning of the shell.
+Yukardaki matematiksel ifadeleri python koduna çevirelim.Python kabuğu açdık şimdi kabuğun başına açıklama yazalım.
 
-A _comment_ is a part of the code which is not executed by python. So we can leave some text in our code to make our code more readable. Python does not run the comment part. A comment in python starts with hash(#) symbol.
+Bir _yorum_ python tarafından yürütülmeyen bir kodun parçacığıdır. Yani biz kodumuzun daha okunaklı olması için bir kaç yazı biliriz. Python yorum satırını çalıştırmaz. Python'da bir yorum hash(#) sembolü ile başlar.
 This is how you write a comment in python
 
 ```shell
- # comment starts with hash
- # this is a python comment, because it starts with a (#) symbol
+ # yorumlar hash ile başlar
+ # bu bir python yorumu bu yüzden (#) sembolu ile başlıyor.
 ```
 
 ![Maths on python shell](./images/maths_on_python_shell.png)
 
-Before we move on to the next section, let us practice more on the Python interactive shell. Close the opened shell by writing _exit()_ on the shell and open it again and let us practice how to write text on the Python shell.
+Bi sonraki kısma ilerlemeden önce Python Etkileşimli Kabuk'da pratik yapalım.Kabuğa _exit()_ yazarak açık olan kabuğu kapatalım ve Python kabuğuna nasıl metin yazılacağını öğrenelim.
 
 ![Writing String on python shell](./images/writing_string_on_shell.png)
 
-### Installing Visual Studio Code
+### Visual Studio Code Kurulumu
 
-The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this 30 days of Python programming challenge we will use visual studio code. Visual studio code is a very popular open source text editor. I am a fan of vscode and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
+Python Etkileşimli Kabuğu küçük kod parçacıklarını denemede ve test etmekde iyidir fakat büyük projeler için iyi olmayacaktır. Gerçek çalışma ortamında, geliştiriciler kod yazmak için farklı kod editörleri kullanır. 30 günde python kodlama meydan okumasında Visual studio code kullanacağız . Visual studio code açık kaynaklı popüler bit text editörüdür. Ben vscode'un fanıyım ve Visual studio code'u  [indirmenizi](https://code.visualstudio.com/) tavsiye ederim, fakat diğer editörlerden yanaysanız, sahip olduklarınızla takip etmekten çekinmeyin.
 
 [![Visual Studio Code](./images/vscode.png)](https://code.visualstudio.com/)
 
-If you installed visual studio code, let us see how to use it.
-If you prefer a video, you can follow this Visual Studio Code for Python [Video tutorial](https://www.youtube.com/watch?v=bn7Cx4z-vSo)
+Eğer visual studio code'u kurduysanız nasıl kullanacağımızı görelim,
 
-#### How to use visual studio code
+Eğer videyou tercih ederseniz, Linkten Visual Studio Code for Python [Video eğtimine](https://www.youtube.com/watch?v=bn7Cx4z-vSo) ulaşabilirsiniz.
 
-Open the visual studio code by double clicking the visual studio icon. When you open it you will get this kind of interface. Try to interact with the labeled icons.
+#### visual studio code'u nasıl kullanırız
+
+visual studio iconuna çift tıklayarak açalım. When you open it you will get this kind of interface. Try to interact with the labeled icons.
 
 ![Visual studio Code](./images/vscode_ui.png)
 
