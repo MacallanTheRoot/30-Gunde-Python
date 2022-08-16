@@ -214,33 +214,34 @@ Eğer videyou tercih ederseniz, Linkten Visual Studio Code for Python [Video eğ
 
 #### visual studio code'u nasıl kullanırız
 
-visual studio iconuna çift tıklayarak açalım. When you open it you will get this kind of interface. Try to interact with the labeled icons.
+visual studio iconuna çift tıklayarak açalım. Açtığınızda bu tür bir arayüz elde edeceksiniz. Etiketli simgelerle etkileşim kurmayı deneyin.
 
 ![Visual studio Code](./images/vscode_ui.png)
 
-Create a folder named 30DaysOfPython on your desktop. Then open it using visual studio code.
+ 30GundePython adında masaüstünüze bir klasor oluşturun. sonra visual studio code kullanarak onu açın.
 
 ![Opening Project on Visual studio](./images/how_to_open_project_on_vscode.png)
 
 ![Opening a project](./images/opening_project.png)
 
-After opening it you will see shortcuts for creating files and folders inside of 30DaysOfPython project's directory. As you can see below, I have created the very first file, helloworld.py. You can do the same.
+Açtıktan sonra, 30GundePython projesinin dizini içinde dosya ve klasör oluşturmak için kısayollar göreceksiniz. aşşağıda gördüğünüz gibi ilk dosyamı yarattım: helloworld.py . Aynısını yapabilirsiniz.
 
 ![Creating a python file](./images/helloworld.png)
 
-After a long day of coding, you want to close your code editor, right? This is how you will close the opened project.
+Uzun bir kodlama gününden sonra kod editörünüzü kapatmak istiyorsunuz. Öyle değil mi? Açılan projeyi bu şekilde kapatacaksınız.
 
 ![Closing project](./images/closing_opened_project.png)
 
-Congratulations, you have finished setting up the development environment. Let us start coding.
+Tebrikler! Geliştirme ortamınız kurmayı bitirdiniz. hadi kod yazmaya geçelim.
 
-## Basic Python
+## Temel Python
 
-### Python Syntax
+### Python Syntax (Sözdizimi)
 
-A Python script can be written in Python interactive shell or in the code editor. A Python file has an extension .py.
+Bir Python script'i Python Etkileşimli Kabukda veya kod editöründe yazılabilir.  Python dosyasının uzantısı .py'dir.
 
-### Python Indentation
+
+### Python Girintisi
 
 An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
 
