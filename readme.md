@@ -66,7 +66,7 @@
   - [Ortam Kurulumu](#environment-setup)
     - [Python Kurulumu](#installing-python)
     - [Python Shell](#python-shell)
-    - [Visual Studio Code Kurma](#installing-visual-studio-code)
+    - [Visual Studio Code Kurulumu](#installing-visual-studio-code)
       - [Visual Studio Code Nasıl Kullanılır?](#how-to-use-visual-studio-code)
   - [Temel Python](#basic-python)
     - [Python Syntax](#python-syntax)
@@ -77,7 +77,7 @@
       - [String'ler](#string)
       - [Boolean'ler](#booleans)
       - [List](#list)
-      - [Sözlük](#dictionary)
+      - [Dictionary](#dictionary)
       - [Tuple](#tuple)
       - [Set](#set)
     - [Data Türlerini Kontrol Etme](#checking-data-types)
@@ -243,73 +243,72 @@ Bir Python script'i Python Etkileşimli Kabukda veya kod editöründe yazılabil
 
 ### Python Girintisi
 
-An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
+Girintimiz beyaz bir boşluktur. Girintiler çoğu yazılım dilinde okunabiriliği arttırmak için kullanılır. Ancak Python kod bloğu oluşturmak için kullanır. Diğer programlama dillerinde Küme parantezleri  girinti yerine kod blokları oluşturmak için kullanır. Pythonda yaygın bir hata ise kod yazarken yanlış girinti kullanımıdır.
 
 ![Indentation Error](./images/indentation.png)
 
-### Comments
+### Yorumlar
 
-Comments are very important to make the code more readable and to leave remarks in our code. Python does not run comment parts of our code.
-Any text starting with hash(#) in Python is a comment.
+Yorumşar kodunuzunu okunabilir olması ve  notlar bırakmak için çok önemlidir. Python Yorum satırını çalıştırmaz.
+hash(#) ile başlayan herhangi bir text yorum satırıdır.
 
-**Example: Single Line Comment**
+**Örnek: Tek Satır Yorum**
 
 ```shell
-    # This is the first comment
-    # This is the second comment
-    # Python is eating the world
+    # İlk python yorumum
+    # İkinci python yorumum
+    # Python dünyayı yiyor
 ```
 
-**Example: Multiline Comment**
+**Örnek: Çok Satırlı Yorumlar**
 
-Triple quote can be used for multiline comment if it is not assigned to a variable
-
+Eğer Bir değişkene atanmamışşsa Üçlü Alıntı(```) Çok satırlı yorumnlar için kullanılır
 ```shell
-"""This is multiline comment
-multiline comment takes multiple lines.
-python is eating the world
+"""İlk çok satırlı yorumum
+çok satırlı yorumlar çok satır kullanır.
+python dünyayı yiyor
 """
 ```
 
-### Data types
+### Data Türleri
 
-In Python there are several types of data types. Let us get started with the most common ones. Different data types will be covered in detail in other sections. For the time being, let us just go through the different data types and get familiar with them. You do not have to have a clear understanding now.
+Pythonda bir kaç veri türü vardır.Hadi en yaygın olanlarıyla başlayalım. Farlı data türlerini gelecek bölümlerde detaylı bir şekilde göreceğiz. Şu an için, Sadece farklı veri türlerini gözden geçirelim ve onlara aşina olalım. Şimdi net bir anlayışa sahip olmak zorunda değilsin.
 
-#### Number
+#### Sayılar
 
-- Integer: Integer(negative, zero and positive) numbers
-    Example:
+- Integer: Sayılar(negativ, sıfır ve pozitiv) sayılar
+    Örnek:
     ... -3, -2, -1, 0, 1, 2, 3 ...
-- Float: Decimal number
-    Example
+- Float: ondalık sayılar
+    Örnek:
     ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
-- Complex
-    Example
+- Complex: karmaşık sayılar
+    Örnek
     1 + j, 2 + 4j
 
 #### String
 
-A collection of one or more characters under a single or double quote. If a string is more than one sentence then we use a triple quote.
+Tek veya çift tırnak altında bir veya daha fazla karakterden oluşan koleksiyon. Eğer String bir cümleden fazlaysa üçlü alıntı kullanırız.
 
-**Example:**
+**Örnek:**
 
 ```py
-'Asabeneh'
-'Finland'
+'Efe'
+'Türkiye'
 'Python'
-'I love teaching'
-'I hope you are enjoying the first day of 30DaysOfPython Challenge'
+'Öğretmeyi severim'
+'Umarım 30GundePYthon Meydan okumasının ilk gününde eğleniyorsunuzdur'
 ```
 
 #### Booleans
 
-A boolean data type is either a True or False value. T and F should be always uppercase.
+Boolean veri türü, True veya False değeridir. T ve F her zaman büyük harf olmalıdır.
 
-**Example:**
+**Örnek:**
 
 ```python
-    True  #  Is the light on? If it is on, then the value is True
-    False # Is the light on? If it is off, then the value is False
+    True  #  Işık açık mı? Açıksa, değer True'dur
+    False #  Işık açık mı? Kapalıysa, Değer False'dır
 ```
 
 #### List
