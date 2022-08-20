@@ -469,7 +469,7 @@ Python dosyasını çalıştırmak için aşağıdaki resmi kontrol edin. Python
 
 ### Egzersiz: Level 2
 
-1. 30DaysOfPython klasörü içinde day_1 adında bir klasör oluşturun. day_1 klasörü içinde bir python dosyası helloworld.py oluşturun ve 1, 2, 3 ve 4. soruları tekrarlayın. Bir python dosyası üzerinde çalışırken _print()_ kullanmayı unutmayın. Dosyanızı kaydettiğiniz dizine gidin ve çalıştırın.
+1. 30GundePython klasörü içinde gun_1 adında bir klasör oluşturun. gun_1 klasörü içinde bir python dosyası helloworld.py oluşturun ve 1, 2, 3 ve 4. soruları tekrarlayın. Bir python dosyası üzerinde çalışırken _print()_ kullanmayı unutmayın. Dosyanızı kaydettiğiniz dizine gidin ve çalıştırın.
 
 ### Egzersiz: Level 3
 
