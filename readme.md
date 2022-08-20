@@ -45,10 +45,10 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Yazar:
-  <a href="https://www.linkedin.com/in/hamza-efe-%C5%9F-018178213/" target="_blank">Hamza Efe Şahinbaş</a><br>
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a>
   <sub>Çeviren:
+  <a href="https://www.linkedin.com/in/hamza-efe-%C5%9F-018178213/" target="_blank">Hamza Efe Şahinbaş</a><br>
+    <sub>Yazar:
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a>
   <small> Son Düzenleme: Temmuz, 2021</small>
   </sub>
 </div>
