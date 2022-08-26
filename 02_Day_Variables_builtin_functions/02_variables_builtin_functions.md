@@ -41,16 +41,15 @@ Farklı built-in function'larını kullanarak daha fazla pratik yapalım
 
 ![Help and Dir Built in Functions](../images/help_and_dir_builtin.png)
 
-Üst taraftaki terminalden görüldüğü üzere, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
+Üst taraftaki terminalden görüldüğü üzere, Python'un ayrılmış kelimeleri var. Değişkenleri veya işlevleri bildirmek için ayrılmış sözcükler kullanmayız. Bir sonraki bölümde değişkenleri ele alacağız.
 
-I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
+İnanıyorum ki built-in function'lara artık alışmışşınızdır. built-in functions'larla biraz daha alıştırma yapalım ve sonra sonraki bölüme geçelim.
 
 ![Min Max Sum](../images/builtin-functional-final.png)
 
-## Variables
+## Variables (Değişkenler)
 
-Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored.
-Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
+Değişkenler verileri bilgisayar belleğinde saklar. Mnemonic variables (Anımsatıcı Değişkenler) çoğu yazılım dilinde kullanılması önerilir.A mnemonic variables kolayca hatırlanabilen ve ilişkendirilebilen bir değişken adıdır.Variable verilerin saklandığı bir hafıza adresini ifade eder. Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
 
 Python Variable Name Rules
 
