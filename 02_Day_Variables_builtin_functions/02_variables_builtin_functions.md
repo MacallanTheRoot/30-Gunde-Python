@@ -123,12 +123,13 @@ print('Merhaba',',', 'Dunya','!') #print birden fazla argüman alabilir, dört a
 print(len('Merhaba, Dunya!')) # sadece bir argüman alır
 ```
 
-Let us print and also find the length of the variables declared at the top:
+En üstte belirtilen değişkenlerin uzunluğunu yazdıralım ve bulalım:
 
-**Example:**
+
+**Örnek:**
 
 ```py
-# Printing the values stored in the variables
+# Değişkenlerde saklanan değerleri yazdırma
 
 print('First name:', first_name)
 print('First name length:', len(first_name))
@@ -137,88 +138,86 @@ print('Last name length: ', len(last_name))
 print('Country: ', country)
 print('City: ', city)
 print('Age: ', age)
-print('Married: ', is_married)
+print('Married: ', not_married)
 print('Skills: ', skills)
 print('Person information: ', person_info)
 ```
 
-### Declaring Multiple Variable in a Line
+### Bir satırda birden çok değişken bildirmek
 
-Multiple variables can also be declared in one line:
+bir satırda birden çok değişken bildirilebilir:
 
-**Example:**
+**Örnek:**
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Efe', 'Sahinbas', 'Van', 250, False
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
 print('Last name: ', last_name)
 print('Country: ', country)
 print('Age: ', age)
-print('Married: ', is_married)
 ```
 
-Getting user input using the _input()_ built-in function. Let us assign the data we get from a user into first_name and age variables.
-**Example:**
+_input()_ yerleşik işlevini kullanarak kullanıcı girdisi alma. Bir kullanıcıdan aldığımız verileri first_name ve age değişkenlerine atayalım.
+**Örnek:**
 
 ```py
-first_name = input('What is your name: ')
-age = input('How old are you? ')
+first_name = input('İsmin ne?: ')
+age = input('Kaç yaşındasın? ')
 
 print(first_name)
 print(age)
 ```
 
-## Data Types
+## Data Türleri
 
-There are several data types in Python. To identify the data type we use the _type_ built-in function. I would like to ask you to focus on understanding different data types very well. When it comes to programming, it is all about data types. I introduced data types at the very beginning and it comes again, because every topic is related to data types. We will cover data types in more detail in their respective sections.
+Python'da birkaç veri türü vardır. Veri türünü belirlemek için yerleşik _type_ işlevini kullanırız. Farklı veri tiplerini çok iyi anlamaya odaklanmanızı rica ediyorum. Programlama söz konusu olduğunda, her şey veri türleri ile ilgilidir. En başta veri türlerini tanıttım ve tekrar geliyor çünkü her konu veri türleri ile ilgili. Veri türlerini ilgili bölümlerinde daha ayrıntılı olarak ele alacağız.
 
-## Checking Data types and Casting
 
-- Check Data types: To check the data type of certain data/variable we use the _type_
-  **Example:**
+##Veri türlerini ve dökümanları kontrol etmek
+
+- Veri türlerini kontrol edin: Belirli verilerin/değişkenlerin veri türünü kontrol etmek için _type_ kullanırız. 
+- **Örnek:**
 
 ```py
-# Different python data types
-# Let's declare variables with various data types
+# Farklı python veri türleri
+# Değişkenleri çeşitli veri türleriyle tanımlayalım
 
-first_name = 'Asabeneh'     # str
-last_name = 'Yetayeh'       # str
-country = 'Finland'         # str
-city= 'Helsinki'            # str
-age = 250                   # int, it is not my real age, don't worry about it
+first_name = 'Efe'     # str
+last_name = 'Sahinbas'       # str
+country = 'Turkey'        # str
+city= 'Van'            # str
+age = 250                   # int
 
-# Printing out types
-print(type('Asabeneh'))     # str
+# Diğer Türleri yazdırma
+print(type('Efe'))     # str
 print(type(first_name))     # str
 print(type(10))             # int
 print(type(3.14))           # float
 print(type(1 + 1j))         # complex
 print(type(True))           # bool
 print(type([1, 2, 3, 4]))     # list
-print(type({'name':'Asabeneh','age':250, 'is_married':250}))    # dict
+print(type({'name':'Efe','age':250, 'is_married':250}))    # dict
 print(type((1,2)))                                              # tuple
 print(type(zip([1,2],[3,4])))                                   # set
 ```
 
-- Casting: Converting one data type to another data type. We use _int()_, _float()_, _str()_, _list_, _set_
-  When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
-
+- Döküman: Bir veri tipini başka bir veri tipine dönüştürme. _int()_, _float()_, _str()_, _list_, _set_ kullanıyoruz. Aritmetik işlemler yaptığımızda string numaraları önce int veya float'a dönüştürülmelidir, aksi takdirde hata verir. Bir sayıyı bir dizge ile birleştirirsek, sayı önce bir dizgeye dönüştürülmelidir. String bölümünde birleştirme hakkında konuşacağız.
   **Example:**
 
 ```py
-# int to float
+# int to float (sayıyı, ondalığa çevirmek)
 num_int = 10
 print('num_int',num_int)         # 10
 num_float = float(num_int)
 print('num_float:', num_float)   # 10.0
 
-# float to int
+# float to int (ondalığı, sayıya çevirmek)
 gravity = 9.81
 print(int(gravity))             # 9
 
-# int to str
+# int to str  (sayıyı yazıya çevirmek)
 num_int = 10
 print(num_int)                  # 10
 num_str = str(num_int)
@@ -236,49 +235,49 @@ first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
 
-## Numbers
+## Sayılar
 
-Number data types in Python:
+Python'da sayı veri türleri:
 
-1. Integers: Integer(negative, zero and positive) numbers
-   Example:
+1. Integers (Sayılar) : Integer(negative, sıfır ve pozitif) sayılar
+   Örnek:
    ... -3, -2, -1, 0, 1, 2, 3 ...
 
-2. Floating Point Numbers(Decimal numbers)
-   Example:
+2. Floating Point Numbers(Decimal numbers) (kayan ondalıklı sayılar)
+   Örnek:
    ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 
-3. Complex Numbers
-   Example:
+3. Complex Numbers (karmaşık sayılar)
+   Örnek:
    1 + j, 2 + 4j, 1 - 1j
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and muscles.
+🌕 Way Efsanesin. 2. gün zorluklarını tamamladınız ve mükemmelliğe giden yolda iki adım öndesiniz. Şimdi beynin kaslarınız için bazı egzersizler yapın.
 
-## 💻 Exercises - Day 2
+## 💻 Egzersizler - Gün 2
 
-### Exercises: Level 1
+### Egzersizler: Level 1
 
-1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
-2. Write a python comment saying 'Day 2: 30 Days of python programming'
-3. Declare a first name variable and assign a value to it
-4. Declare a last name variable and assign a value to it
-5. Declare a full name variable and assign a value to it
-6. Declare a country variable and assign a value to it
-7. Declare a city variable and assign a value to it
-8. Declare an age variable and assign a value to it
-9. Declare a year variable and assign a value to it
-10. Declare a variable is_married and assign a value to it
-11. Declare a variable is_true and assign a value to it
-12. Declare a variable is_light_on and assign a value to it
-13. Declare multiple variable on one line
+1. 30GundePython içinde day_2 adlı bir klasör oluşturun. Bu klasörün içinde variables.py adlı bir dosya oluşturun.
+2. 2. 'Gün 2: 30 Günlük python programlama' diyen bir python yorumu yazın
+3. Bir ad değişkeni bildirin ve ona bir değer atayın
+4. Bir soyadı değişkeni bildirin ve ona bir değer atayın
+5. Bir tam ad değişkeni bildirin ve ona bir değer atayın
+6. Bir ülke değişkeni bildirin ve ona bir değer atayın
+7. Bir şehir değişkeni bildirin ve ona bir değer atayın
+8. Bir yaş değişkeni bildirin ve ona bir değer atayın
+9. Bir yıl değişkeni bildirin ve ona bir değer atayın
+10. Bir değişken evli_mi bildirin ve ona bir değer atayın
+11. Bir değişken is_true bildirin ve ona bir değer atayın
+12. Bir değişken is_light_on bildirin ve ona bir değer atayın
+13. Bir satırda birden çok değişken bildir
 
-### Exercises: Level 2
+### Egzersizler: Level 2
 
-1. Check the data type of all your variables using type() built-in function
-1. Using the _len()_ built-in function, find the length of your first name
-1. Compare the length of your first name and your last name
-1. Declare 5 as num_one and 4 as num_two
-    1. Add num_one and num_two and assign the value to a variable total
+1. type() yerleşik işlevini kullanarak tüm değişkenlerinizin veri türünü kontrol edin
+1. _len()_ yerleşik işlevini kullanarak adınızın uzunluğunu bulun
+1. Adınızın ve soyadınızın uzunluğunu karşılaştırın
+1. 5'i num_one ve 4'ü num_two olarak bildirin
+    1. num_one ve num_two ekleyin ve değeri bir toplam değişkene atayın
     2. Subtract num_two from num_one and assign the value to a variable diff
     3. Multiply num_two and num_one and assign the value to a variable product
     4. Divide num_one by num_two and assign the value to a variable division
@@ -292,6 +291,6 @@ Number data types in Python:
 1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 BAŞARILAR ! 🎉
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
+[<< Gün 1](../readme.md) | [Gün 3 >>](../03_Day_Operators/03_operators.md)
