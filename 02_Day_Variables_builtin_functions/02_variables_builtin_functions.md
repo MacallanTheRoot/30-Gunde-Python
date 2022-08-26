@@ -49,36 +49,35 @@ Farklı built-in function'larını kullanarak daha fazla pratik yapalım
 
 ## Variables (Değişkenler)
 
-Değişkenler verileri bilgisayar belleğinde saklar. Mnemonic variables (Anımsatıcı Değişkenler) çoğu yazılım dilinde kullanılması önerilir.A mnemonic variables kolayca hatırlanabilen ve ilişkendirilebilen bir değişken adıdır.Variable verilerin saklandığı bir hafıza adresini ifade eder. Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
+Değişkenler verileri bilgisayar belleğinde saklar. Mnemonic variables (Anımsatıcı Değişkenler) çoğu yazılım dilinde kullanılması önerilir.A mnemonic variables kolayca hatırlanabilen ve ilişkendirilebilen bir değişken adıdır.Variable verilerin saklandığı bir hafıza adresini ifade eder. baştakı sayı, özel karakter, tire bir değişkeni adlandırırken izin vermez. Değişkenlerin kısa adları olabilir (Örneğin x, y, z), fakat daha çok açıklayıcı bir isim tercih edilir (firstname, lastname, age, country).
 
-Python Variable Name Rules
+Python (Değişken) Variable isim kuralları
 
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and \_ )
-- Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
+- Değişken ismi bir harf veya alt çizği ile başlamalıdır
+- Değişken ismi bir sayıyla başlayamaz
+- Değişken ismi sadece alpa_numeric karakterler ve alt treler alabilir (A-z, 0-9, ve \_ )
+- Değişken ismi büyük-küçük duyarlıdır (firstname, Firstname, FirstName ve FIRSTNAME) bunlar farklı değişkenlerdir)
 
-Let us se valid variable names
+Geçerli Variable (Değişken) adlarını görelim
 
 ```shell
-firstname
-lastname
-age
-country
-city
-first_name
-last_name
-capital_city
-_if # if we want to use reserved word as a variable
-year_2021
-year2021
-current_year_2021
-birth_year
+ilkisim
+soyisim
+yas
+ulke
+sehir
+ilk_isim
+soy_isim
+_if # bir reserved (ayrılmış) kelimeyi değişken olarak kullanmak istiyorsak
+sene_2022
+sene2022
+su_anki_sene_2022
+dogum_tarihi
 num1
 num2
 ```
 
-Invalid variables names
+Yanlış (Değişken) variables isimleri
 
 ```shell
 first-name
@@ -88,37 +87,40 @@ num-1
 1num
 ```
 
-We will use standard Python variable naming style which has been adopted by many Python developers. Python developers use snake case(snake_case) variable naming convention. We use underscore character after each word for a variable containing more than one word(eg. first_name, last_name, engine_rotation_speed).  The example below is an example of standard naming of variables, underscore is required when the variable name is more than one word.
+Birçok Python geliştiricisi tarafından benimsenen standart Python değişken adlandırma stilini kullanacağız. Python geliştiricileri, snake case(snake_case) diye adlandırılan adlandırma kuralını kullanır. Birden fazla kelime içeren bir değişken için her kelimeden sonra alt çizgi karakteri kullanırız (örn. ad_adı, soyadı, motor_dönüşü_hızı). Aşağıdaki örnek, değişkenlerin standart adlandırılmasına bir örnektir, değişken adı birden fazla kelime olduğunda alt çizgi gereklidir.
 
-When we assign a certain data type to a variable, it is called variable declaration. For instance in the example below my first name is assigned to a variable first_name. The equal sign is an assignment operator. Assigning means storing data in the variable. The equal sign in Python is not equality as in Mathematics.
 
-_Example:_
+
+Bir değişkene belirli bir veri tipi atadığımızda buna değişken bildirimi (variable declaration) denir. Örneğin aşağıdaki örnekte benim adım bir first_name değişkenine atanmıştır. Eşittir işareti bir atama operatörüdür. Atama, değişkende veri depolamak anlamına gelir. Python'daki eşittir işareti, Matematikteki gibi eşitlik değildir. 
+
+
+Ornekler:_
 
 ```py
-# Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
+# Python'da değişkenler
+first_name = 'Efe'
+last_name = 'Sahinbas'
+country = 'Turkey'
+city = 'Van'
 age = 250
-is_married = True
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
+is_married = False
+skills = ['HTML', 'CSS', 'JS', 'Python']
 person_info = {
-   'firstname':'Asabeneh',
-   'lastname':'Yetayeh',
-   'country':'Finland',
-   'city':'Helsinki'
+   'firstname':'Efe',
+   'lastname':'Sahinbas',
+   'country':'Turkey',
+   'city':'Van'
    }
 ```
 
-Let us use the _print()_ and _len()_ built-in functions. Print function takes unlimited number of arguments. An argument is a value which we can be passed or put inside the function parenthesis, see the example below.
+Hadi _print()_ ve _len()_ built-in functionlarını kullanalım.  Print fonksiyonu sınırsız sayıda argüman alır. Argüman, iletebileceğimiz veya fonksiyon parantezinin içine koyabileceğimiz bir değerdir, aşağıdaki örneğe bakın.
 
-**Example:**
+**Örnek:**
 
 ```py
-print('Hello, World!') # The text Hello, World! is an argument
-print('Hello',',', 'World','!') # it can take multiple arguments, four arguments have been passed
-print(len('Hello, World!')) # it takes only one argument
+print('Merhaba, Dunya!') # Merhaba, dünya! bir argümandır
+print('Merhaba',',', 'Dunya','!') #print birden fazla argüman alabilir, dört argüman iletildi
+print(len('Merhaba, Dunya!')) # sadece bir argüman alır
 ```
 
 Let us print and also find the length of the variables declared at the top:
