@@ -13,7 +13,7 @@
 </sub>
 </div>
 
-[<< Day 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Day 4 >>](../04_Day_Strings/04_strings.md)
+[<< Gün 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Gün 4 >>](../04_Day_Strings/04_strings.md)
 
 ![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
 
@@ -26,64 +26,63 @@
     - [Logical Operators](#logical-operators)
   - [💻 Exercises - Day 3](#-exercises---day-3)
 
-# 📘 Day 3
+# 📘 Gün 3
 
 ## Boolean
 
-A boolean data type represents one of the two values: _True_ or _False_. The use of these data types will be clear once we start using the comparison operator. The first letter **T** for True and **F** for False should be capital unlike JavaScript.
-**Example: Boolean Values**
+Bir boolean veri türü, iki değerden birini temsil eder: True veya False. Bu veri tiplerinin kullanımı, karşılaştırma operatörünü kullanmaya başladığımızda açık olacak. İlk harf olan T doğru için, F ise yanlış için büyük harf olmalıdır; JavaScript'in aksine. **Örnek: Boolean Değerler**
 
 ```py
 print(True)
 print(False)
 ```
 
-## Operators
+## Operatörler
 
-Python language supports several types of operators. In this section, we will focus on few of them.
+Python dili birkaç türde operatörü destekler. Bu bölümde, bunlardan birkaçına odaklanacağız.
 
-### Assignment Operators
+### Atama Operatörleri
 
-Assignment operators are used to assign values to variables. Let us take = as an example. Equal sign in mathematics shows that two values are equal, however in Python it means we are storing a value in a certain variable and we call it assignment or a assigning value to a variable. The table below shows the different types of python assignment operators, taken from [w3school](https://www.w3schools.com/python/python_operators.asp).
+Atama operatörleri, değişkenlere değer atamak için kullanılır. Bir örnek olarak = işaretini alalım. Matematikte eşit işareti iki değerin eşit olduğunu gösterir, ancak Python'da bu, belirli bir değişkende bir değeri depoladığımızı ifade eder ve buna atama veya değişkene değer atama denir. Aşağıdaki tablo, Python atama operatörlerinin farklı türlerini göstermektedir;  [w3school](https://www.w3schools.com/python/python_operators.asp) Sitesinden alınmıştır.
 
-![Assignment Operators](../images/assignment_operators.png)
+![Atama Operatörleri](../images/assignment_operators.png)
 
-### Arithmetic Operators:
+### Aritmetik Operatörler:
 
-- Addition(+): a + b
-- Subtraction(-): a - b
-- Multiplication(*): a * b
-- Division(/): a / b
-- Modulus(%): a % b
-- Floor division(//): a // b
-- Exponentiation(**): a ** b
+- Toplama(+): a + b
+- Çıkarma(-): a - b
+- Çarpma(*): a * b
+- Bölme(/): a / b
+- Yüzde Hesaplama(%): a % b
+- Taban Bölme (//): a // b
+- Üstünü Alma(**): a ** b
 
-![Arithmetic Operators](../images/arithmetic_operators.png)
+![Aritmetik Operatörler](../images/arithmetic_operators.png)
 
-**Example:Integers**
+**Örnek: Tam Sayılar**
 
 ```py
-# Arithmetic Operations in Python
-# Integers
+# Python'da Aritmetik İşlemler
+# Tam Sayılar
 
-print('Addition: ', 1 + 2)        # 3
-print('Subtraction: ', 2 - 1)     # 1
-print('Multiplication: ', 2 * 3)  # 6
-print ('Division: ', 4 / 2)       # 2.0  Division in Python gives floating number
-print('Division: ', 6 / 2)        # 3.0         
-print('Division: ', 7 / 2)        # 3.5
-print('Division without the remainder: ', 7 // 2)   # 3,  gives without the floating number or without the remaining
-print ('Division without the remainder: ',7 // 3)   # 2
-print('Modulus: ', 3 % 2)         # 1, Gives the remainder
-print('Exponentiation: ', 2 ** 3) # 9 it means 2 * 2 * 2
+print('Toplama: ', 1 + 2)        # 3
+print('Çıkarma: ', 2 - 1)     # 1
+print('Çarpma: ', 2 * 3)  # 6
+print ('Bölme: ', 4 / 2)       # 2.0  Python'da bölme işlemi ondalık sayı verir.
+print('Bölme: ', 6 / 2)        # 3.0         
+print('Bölme: ', 7 / 2)        # 3.5
+print('Kalan olmadan Bölme: ', 7 // 2)   # 3,  Ondalık kısmı olmadan veya artık kısmı olmadan sonuç verir.
+print ('Kalan olmadan Bölme: ',7 // 3)   # 2
+print('Yüzde Hesaplama: ', 3 % 2)         # 1, Kalanı verir.
+print('Üstünü Alma: ', 2 ** 3) # 9 bu şu anlama gelir -> 2 * 2 * 2
 ```
 
-**Example:Floats**
+**Örnek: Ondalıklı Sayılar**
 
 ```py
-# Floating numbers
-print('Floating Point Number, PI', 3.14)
-print('Floating Point Number, gravity', 9.81)
+# Ondalık Sayılar
+print('Ondalık Noktalı Sayı, PI', 3.14)
+print('Ondalık Noktalı Sayı, Yer Çekimi', 9.81)
 ```
 
 **Example:Complex numbers**
