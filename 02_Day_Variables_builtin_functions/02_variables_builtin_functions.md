@@ -277,20 +277,19 @@ Python'da sayı veri türleri:
 1. _len()_ yerleşik işlevini kullanarak adınızın uzunluğunu bulun
 1. Adınızın ve soyadınızın uzunluğunu karşılaştırın
 1. 5'i num_one ve 4'ü num_two olarak bildirin
-    1. num_one ve num_two ekleyin ve değeri bir toplam değişkene atayın
-    2. Subtract num_two from num_one and assign the value to a variable diff
-    3. Multiply num_two and num_one and assign the value to a variable product
-    4. Divide num_one by num_two and assign the value to a variable division
-    5. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
-    6. Calculate num_one to the power of num_two and assign the value to a variable exp
-    7. Find floor division of num_one by num_two and assign the value to a variable floor_division
-1. The radius of a circle is 30 meters.
-    1. Calculate the area of a circle and assign the value to a variable name of _area_of_circle_
-    2. Calculate the circumference of a circle and assign the value to a variable name of _circum_of_circle_
-    3. Take radius as user input and calculate the area.
-1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
-
+   1. num_one ve num_two ekleyin ve değeri bir toplam değişkene atayın
+    2. num_one'dan num_two'yu çıkarın ve değeri diff değişkenine atayın
+    3. Sayı_iki ve Sayı_Bir'i çarpın ve değeri değişken bir çarpıma atayın
+    4. num_one'u num_two'ya bölün ve değeri değişken bir bölüme atayın
+    5. Sayı_iki'nin sayı_bir'e bölünmesini bulmak için modül bölmeyi kullanın ve değeri bir değişken kalanına atayın
+    6. num_one'un num_two üssünü hesaplayın ve değeri bir exp değişkenine atayın
+    7. num_one'un num_two'ya göre kat bölümünü bulun ve değeri bir Floor_division değişkenine atayın
+1. Bir dairenin yarıçapı 30 metredir.
+    1. Bir dairenin alanını hesaplayın ve değeri _area_of_circle_ değişken adına atayın
+    2. Bir dairenin çevresini hesaplayın ve değeri _circum_of_circle_ değişken adına atayın
+    3. Kullanıcı girişi olarak yarıçapı alın ve alanı hesaplayın.
+1. Kullanıcının adını, soyadını, ülkesini ve yaşını almak ve değeri karşılık gelen değişken adlarına kaydetmek için yerleşik giriş işlevini kullanın.
+1. Python'a ayrılmış kelimeleri veya anahtar kelimeleri kontrol etmek için Python kabuğunda veya dosyanızda help('keywords') komutunu çalıştırın
 🎉 BAŞARILAR ! 🎉
 
 [<< Gün 1](../readme.md) | [Gün 3 >>](../03_Day_Operators/03_operators.md)
